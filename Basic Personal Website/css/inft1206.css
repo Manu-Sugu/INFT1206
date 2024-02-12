@@ -1,0 +1,297 @@
+/*
+    Name: Manu Sugunakumar
+    File: inft1206.css
+    Date: February 1, 2023
+*/
+
+/*
+    Changes the all webpages
+*/
+body {
+    background-color: #001233;
+    color: #FF595A;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+table {
+    border: 3px solid #CAC0B3;
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    font-family: Andale Mono, monospace;
+    color: #FF595A;
+    text-align: center;
+    border: 2px solid #CAC0B3;
+}
+
+td {
+    border: 2px solid #CAC0B3;
+}
+
+h1 {
+    font-family: Andale Mono, monospace;
+    color: #FF595A;
+    text-align: center;
+}
+
+h2 {
+    font-family: Andale Mono, monospace;
+    color: #FF595A;
+    text-align: left;
+}
+
+h3 {
+    font-family: Andale Mono, monospace;
+    color: #FF595A;
+    text-align: center;
+}
+
+p {
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    color: #FF595A;
+    text-align: left;
+}
+
+hr {
+    color: #CAC0B3;
+    border-width: 2px;
+}
+
+/*
+    Changes for index page
+*/
+p#anchor_footer_left_index {
+    text-align: left;
+}
+
+/*
+    Changes for lab 1 page
+*/
+code#code_lab1 {
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    color: #CAC0B3;
+    text-align: left;
+}
+
+li.list_items_lab1 {
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    color: #CAC0B3;
+    text-align: left;
+}
+
+h2.h2_lab1 {
+    color: #CAC0B3
+}
+
+/*
+    Changes for lab 2 page
+*/
+table#tag_table {
+    border: 3px solid #CAC0B3;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#schedule_table {
+    border: 3px solid #CAC0B3;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+    Changes for Test 1
+*/
+h3.test1header{
+    font-size: 24pt;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span.test1span{
+    font-size: 12pt;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+/*
+    Changes for Lab 4
+*/
+h3.lab4{
+    text-align: left;
+}
+/*
+    Changes for the tag page
+*/
+table#lab4_tags{
+    width: 100%;
+}
+th#lab4_tags_methods{
+    width: 20%;
+}th#lab4_tags_opening{
+    width: 40%;
+}th#lab4_tags_closing{
+    width: 40%;
+}
+td.lab4{
+    text-align: center;
+}
+
+/*
+    Changes for Lab 5
+*/
+/*
+    Changes for simple temp
+*/
+h1.lab5{
+    text-align: left;
+}
+th.simple_temp_table{
+    width: 10%;
+}
+
+/*
+    Changes for anchor links
+*/
+a:link {
+    color: #ff9100;
+}
+
+a:visited {
+    color: #FF595A;
+}
+
+a:hover {
+    color: #CAC0B3;
+    background-color: #FF595A;
+}
+
+a:active {
+    color: #FF595A;
+    background-color: #CAC0B3;
+}
+/*
+The layout for the rest of this css is a modified version from:
+http://www.maxdesign.com.au/articles/process/
+
+Students are encouraged to read this article.  Great explanation of some sound design concepts with attractive examples provided.
+
+You can cut and paste this at the bottom of your existing css file, and when used in conjunction with the css_layout.html file you unzipped, can wrap your pages into this site.
+*/
+#container
+{
+	margin: 0 auto;
+	width: 1200px;
+	background: #fff;
+}
+
+#header
+{
+	background: #b3c3f3;
+	padding: 20px;
+}
+
+#header h1
+ { 
+	margin: 0;
+	display: inline;
+}
+
+#header img
+{ 
+	vertical-align: middle;
+	width: 150px;
+}
+
+#sites
+{
+	display: inline-block;
+	/*float: left;*/
+	width: 100%;
+	/*width: 1200px;*/
+	background: #003366;
+}
+
+#sites ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#sites ul li
+{
+	list-style-type: none;
+	display: inline-block;
+}
+
+#sites li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #FF595A;
+	text-decoration: none;
+	border-right: 1px solid #FF595A;
+}
+
+#sites li a:hover { 
+	background-color: #b3c3f3; 
+	color: #FF595A;
+}
+
+#navigation
+{
+	display: inline-block;
+	vertical-align: top;
+	/*clear: left;*/
+	/*float: left;*/
+	/*display: inline;*/
+	width: 240px;
+	padding: 10px 0;
+	margin: 0 20px 0 0;
+}
+
+#navigation h3 { margin: 0; }
+
+#content-container
+{
+	/*float: left;*/
+	/*width: 1200px;*/
+	background-color: #003366;
+	background-image: url(../images/styles/background.png);
+	/* go up a directory, and then work down into images/styles directory */
+	background-repeat: repeat-y;
+	
+}
+
+#content
+{
+	display: inline-block;
+	/*float: right;*/
+	width: 860px;
+	padding: 20px 0;
+	margin: 0 0 0 30px;
+	/*display: inline;*/
+}
+
+#content h2 { margin: 0; }
+
+#footer
+{
+	clear: both;
+	background: #b3c3f3;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+}
+
+#footer img{
+	vertical-align: middle;
+}
